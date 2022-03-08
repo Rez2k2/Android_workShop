@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void takeME(MenuItem item) {
         Toast.makeText(MainActivity.this,"Profile Clicked",Toast.LENGTH_SHORT).show();
-//        Intent i = new Intent(MainActivity.this,MainActivity2.class);
-//        startActivity(i);
+        Intent i = new Intent(MainActivity.this,MainActivity2.class);
+        startActivity(i);
 
     }
 }
